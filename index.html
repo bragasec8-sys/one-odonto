@@ -4,22 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>One Odontologia Moema | Invisalign em Moema</title>
-  <meta name="description" content="Clínica especializada em Invisalign em Moema. Alinhe seu sorriso de forma invisível com a Dra. Larissa Nunes Martini, referência em tratamentos Invisalign no Brasil." />
+  <meta name="description" content="Clínica especializada em Invisalign em Moema. Alinhe seu sorriso de forma invisível com a Dra. Larissa Nunes Martini." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+  <!-- Barra de progresso de scroll -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
   <header class="header">
     <div class="container header__content">
       <div class="header__branding">
         <a href="#" class="logo-mark">
-    <img src="logo.png" alt="Farmais Adamantina" style="height:48px;width:auto;display:block;">
-  </a>
+          <img src="logo.png" alt="One Odontologia" style="height:48px;width:auto;display:block;">
+        </a>
         <div class="logo-text">
           <span class="logo-title">One Odontologia</span>
-          <span class="logo-subtitle">Clínica Especializada em Invisalign</span>
+          <span class="logo-subtitle">Especialistas em Invisalign</span>
         </div>
       </div>
       <nav class="nav">
@@ -32,7 +36,7 @@
           <li><a href="#dra">Dra. Larissa</a></li>
           <li><a href="#depoimentos">Depoimentos</a></li>
           <li><a href="#faq">Dúvidas</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="#contato" class="nav__cta">Agendar avaliação</a></li>
         </ul>
       </nav>
     </div>
@@ -40,354 +44,288 @@
 
   <main>
     <!-- Hero -->
-    <!-- Hero -->
-<section id="inicio" class="hero">
-  <div class="container hero__grid">
-    <div class="hero__text">
-      <p class="hero__tag">Clínica Especializada em Invisalign</p>
-      <h1 class="hero__title">
-        Alinhe seu sorriso de forma <span class="highlight">invisível</span> na One Odontologia
-      </h1>
-      <p class="hero__subtitle">
-        Tecnologia Invisalign©, ambiente acolhedor e atendimento personalizado para transformar o seu sorriso
-        com conforto, discrição e previsibilidade.
-      </p>
-      <div class="hero__cta-group">
-        <a href="#contato" class="btn btn--primary">Transforme seu sorriso</a>
-        <a href="#sobre-invisalign" class="btn btn--ghost">Saiba mais sobre Invisalign</a>
-      </div>
-    </div>
-
-    <div class="hero__right">
-      <div class="hero__image-card">
-        <img src="patient-invisalign.jpg"One Odontologia Moema" class="hero__img" />
-        <div class="hero__badge">
-          <span class="hero__badge-title">Invisalign©</span>
-          <span class="hero__badge-sub">Tecnologia de ponta para o seu sorriso</span>
-        </div>
-      </div>
-
-      <div class="hero__meta">
-        <div class="meta-item">
-          <span class="meta-label">Responsável técnica</span>
-          <span class="meta-value">Dra. Larissa Nunes Martini</span>
-          <span class="meta-sub">CRO/SP 119343 • CROSP/CL 027558</span>
-        </div>
-        <div class="meta-item">
-          <span class="meta-label">Referência em Invisalign©</span>
-          <span class="meta-sub">Entre os 200 doutores que mais trataram casos no Brasil</span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-    <!-- Invisalign - Benefícios -->
-  <section id="sobre-invisalign" class="section section--soft">
-  <div class="container">
-    <div class="section__header">
-      <p class="section__kicker">Por que Invisalign?</p>
-      <h2>O alinhador que<br/><em style="color:#c9a961; font-style:italic;">cabe na sua vida</em></h2>
-    </div>
-
-    <div class="benefits-grid">
-
-      <article class="bcard">
-        <div class="bcard__icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.5"/>
-            <path d="M16 24l6 6 10-12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <h3>Invisível</h3>
-        <p>Transparente. Ninguém precisa saber.</p>
-      </article>
-
-      <article class="bcard">
-        <div class="bcard__icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M24 10v28M10 24h28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="1.5"/>
-          </svg>
-        </div>
-        <h3>Removível</h3>
-        <p>Come, escova e sorri sem restrições.</p>
-      </article>
-
-      <article class="bcard">
-        <div class="bcard__icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="10" y="14" width="28" height="20" rx="3" stroke="currentColor" stroke-width="1.5"/>
-            <path d="M18 24h12M24 19v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <h3>Previsível</h3>
-        <p>Veja o resultado antes de começar.</p>
-      </article>
-
-      <article class="bcard">
-        <div class="bcard__icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M24 38s-14-9-14-19a14 14 0 0 1 28 0c0 10-14 19-14 19z" stroke="currentColor" stroke-width="1.5"/>
-          </svg>
-        </div>
-        <h3>Confortável</h3>
-        <p>Sem fios ou metais. Só suavidade.</p>
-      </article>
-
-      <article class="bcard">
-        <div class="bcard__icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="1.5"/>
-            <path d="M24 17v7l4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <h3>Rápido</h3>
-        <p>Mudanças visíveis em semanas.</p>
-      </article>
-
-      <article class="bcard bcard--cta">
-        <p class="bcard__label">Para quem é?</p>
-        <p>Adultos, adolescentes e crianças — casos simples ou complexos.</p>
-        <a href="#contato" class="btn btn--primary btn--inline">Avaliar meu caso →</a>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<!-- Invisalign em Ação -->
-<section class="section section-media">
-  <div class="container">
-
-    <div class="section__header section__header--center">
-      <p class="section__kicker">Veja como funciona</p>
-      <h2>Tecnologia que<br/><em style="color:#c9a961; font-style:italic;">transforma sorrisos</em></h2>
-    </div>
-
-    <div class="media-layout">
-
-      <!-- Coluna esquerda: vídeo vertical -->
-      <div class="media-video-wrap">
-  <div class="media-video-container">
-    <video id="mediaVideo" poster="dr.jpg" src="invisa.mp4" loop playsinline></video>
-    
-    <!-- Botão play customizado -->
-    <div class="video-play-overlay" id="playOverlay">
-      <button class="video-play-btn" id="playBtn" aria-label="Reproduzir vídeo">
-        <svg viewBox="0 0 24 24" fill="none">
-          <circle cx="12" cy="12" r="11" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M10 8l6 4-6 4V8z" fill="currentColor"/>
-        </svg>
-      </button>
-    </div>
-
-    <!-- Barra de controles customizada (aparece só quando tocando) -->
-    <div class="video-controls" id="videoControls">
-      <button class="vc-btn" id="vcPlay" aria-label="Pausar">
-        <svg id="vcIconPlay" viewBox="0 0 24 24" fill="none" style="display:none">
-          <path d="M10 8l6 4-6 4V8z" fill="currentColor"/>
-        </svg>
-        <svg id="vcIconPause" viewBox="0 0 24 24" fill="none">
-          <rect x="6" y="5" width="4" height="14" rx="1" fill="currentColor"/>
-          <rect x="14" y="5" width="4" height="14" rx="1" fill="currentColor"/>
-        </svg>
-      </button>
-      <input type="range" class="vc-progress" id="vcProgress" value="0" min="0" max="100" step="0.1"/>
-      <button class="vc-btn" id="vcSound" aria-label="Som">
-        <svg id="vcIconMuted" viewBox="0 0 24 24" fill="none">
-          <path d="M11 5L6 9H2v6h4l5 4V5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-          <line x1="22" y1="9" x2="16" y2="15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-          <line x1="16" y1="9" x2="22" y2="15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-        </svg>
-        <svg id="vcIconSound" viewBox="0 0 24 24" fill="none" style="display:none">
-          <path d="M11 5L6 9H2v6h4l5 4V5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-          <path d="M15.54 8.46a5 5 0 0 1 0 7.07" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-        </svg>
-      </button>
-    </div>
-
-  </div>
-</div>
-      <!-- Coluna direita: fotos + infos -->
-      <div class="media-content">
-
-        <!-- Fotos -->
-        <div class="media-photos">
-          <div class="media-photo">
-            <img src="dra22.jpg" alt="Antes e depois Invisalign" />
-            
-          </div>
-          <div class="media-photo">
-            <img src="cr.jpg" alt="Alinhador Invisalign" />
-            
-          </div>
-        </div>
-
-        <!-- Infos / stats -->
-        <div class="media-stats">
-          <div class="media-stat">
-            <span class="stat-number">+10M</span>
-            <span class="stat-label">Pacientes tratados<br/>no mundo</span>
-          </div>
-          <div class="media-stat">
-            <span class="stat-number">Top 200</span>
-            <span class="stat-label">Dra. Larissa no<br/>ranking Brasil</span>
-          </div>
-          <div class="media-stat">
-            <span class="stat-number">9–18</span>
-            <span class="stat-label">Meses de<br/>tratamento</span>
-          </div>
-        </div>
-
-        <!-- Texto de apoio -->
-        <div class="media-info-card">
-          <h3>O que torna o Invisalign único?</h3>
-          <p>
-            Cada alinhador é fabricado com tecnologia 3D exclusiva, desenvolvido milimetricamente para o seu sorriso. 
-            O planejamento digital permite prever cada movimento dental — e você acompanha a evolução em tempo real.
+    <section id="inicio" class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text reveal">
+          <p class="hero__tag">Clínica Especializada em Invisalign</p>
+          <h1 class="hero__title">
+            Seu sorriso,<br/><span class="highlight">invisível</span> e perfeito.
+          </h1>
+          <p class="hero__subtitle">
+            Tecnologia Invisalign© com a especialista referência no Brasil — discreta, confortável e com resultado previsível.
           </p>
-          <a href="#contato" class="btn btn--primary">Quero avaliar meu caso</a>
+          <div class="hero__cta-group">
+            <a href="#contato" class="btn btn--primary">Agendar avaliação gratuita</a>
+            <a href="#sobre-invisalign" class="btn btn--ghost">Como funciona?</a>
+          </div>
+
+          <!-- Mini stats no hero -->
+          
         </div>
 
+        <div class="hero__right reveal reveal--delay">
+          <div class="hero__image-card">
+            <img src="patient-invisalign.jpg" alt="Paciente One Odontologia" class="hero__img" />
+            <div class="hero__badge">
+              <span class="hero__badge-title">Invisalign©</span>
+              <span class="hero__badge-sub">Tecnologia de ponta para o seu sorriso</span>
+            </div>
+          </div>
+
+          <div class="hero__meta">
+            <div class="meta-item">
+              <span class="meta-label">Responsável técnica</span>
+              <span class="meta-value">Dra. Larissa Nunes Martini</span>
+              <span class="meta-sub">CRO/SP 119343 • CROSP/CL 027558</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Top 200 Brasil</span>
+              <span class="meta-sub">Entre os doutores que mais trataram casos com Invisalign©</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="sobre-invisalign" class="section section--soft">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__kicker">Por que Invisalign?</p>
+          <h2>O alinhador que <em style="color:#b8954d; font-style:italic;">cabe na sua vida</em></h2>
+        </div>
+
+        <div class="benefits-grid">
+          <article class="bcard reveal">
+            <div class="bcard__icon">
+              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.5"/><path d="M16 24l6 6 10-12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Invisível</h3>
+            <p>Transparente. Ninguém precisa saber.</p>
+          </article>
+
+          <article class="bcard reveal">
+            <div class="bcard__icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M24 10v28M10 24h28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <h3>Removível</h3>
+            <p>Come, escova e sorri sem restrições.</p>
+          </article>
+
+          <article class="bcard reveal">
+            <div class="bcard__icon">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="10" y="14" width="28" height="20" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M18 24h12M24 19v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Previsível</h3>
+            <p>Veja o resultado antes de começar.</p>
+          </article>
+
+          <article class="bcard reveal">
+            <div class="bcard__icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M24 38s-14-9-14-19a14 14 0 0 1 28 0c0 10-14 19-14 19z" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <h3>Confortável</h3>
+            <p>Sem fios ou metais. Só suavidade.</p>
+          </article>
+
+          <article class="bcard reveal">
+            <div class="bcard__icon">
+              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="1.5"/><path d="M24 17v7l4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Rápido</h3>
+            <p>Mudanças visíveis em semanas.</p>
+          </article>
+
+          <article class="bcard bcard--cta reveal">
+            <p class="bcard__label">Para quem é?</p>
+            <p>Adultos, adolescentes e crianças — casos simples ou complexos.</p>
+            <a href="#contato" class="btn btn--primary btn--inline">Avaliar meu caso →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media -->
+    <section class="section section-media">
+      <div class="container">
+        <div class="section__header section__header--center reveal">
+          <p class="section__kicker">Veja como funciona</p>
+          <h2>Tecnologia que <em style="color:#b8954d; font-style:italic;">transforma sorrisos</em></h2>
+        </div>
+
+        <div class="media-layout">
+          <div class="media-video-wrap reveal">
+            <div class="media-video-container">
+              <video id="mediaVideo" poster="dr.jpg" src="invisa.mp4" loop playsinline></video>
+              <div class="video-play-overlay" id="playOverlay">
+                <button class="video-play-btn" id="playBtn" aria-label="Reproduzir vídeo">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="11" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M10 8l6 4-6 4V8z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="video-controls" id="videoControls">
+                <button class="vc-btn" id="vcPlay" aria-label="Pausar">
+                  <svg id="vcIconPlay" viewBox="0 0 24 24" fill="none" style="display:none"><path d="M10 8l6 4-6 4V8z" fill="currentColor"/></svg>
+                  <svg id="vcIconPause" viewBox="0 0 24 24" fill="none"><rect x="6" y="5" width="4" height="14" rx="1" fill="currentColor"/><rect x="14" y="5" width="4" height="14" rx="1" fill="currentColor"/></svg>
+                </button>
+                <input type="range" class="vc-progress" id="vcProgress" value="0" min="0" max="100" step="0.1"/>
+                <button class="vc-btn" id="vcSound" aria-label="Som">
+                  <svg id="vcIconMuted" viewBox="0 0 24 24" fill="none"><path d="M11 5L6 9H2v6h4l5 4V5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><line x1="22" y1="9" x2="16" y2="15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><line x1="16" y1="9" x2="22" y2="15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                  <svg id="vcIconSound" viewBox="0 0 24 24" fill="none" style="display:none"><path d="M11 5L6 9H2v6h4l5 4V5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="media-content">
+            <div class="media-photos reveal">
+              <div class="media-photo"><img src="dra22.jpg" alt="Antes e depois Invisalign" /></div>
+              <div class="media-photo"><img src="cr.jpg" alt="Alinhador Invisalign" /></div>
+            </div>
+
+            
+
+            <div class="media-info-card reveal">
+              <h3>O que torna o Invisalign único?</h3>
+              <p>Alinhadores fabricados com tecnologia 3D exclusiva, desenvolvidos milimetricamente para o seu sorriso. Você acompanha cada movimento antes mesmo de começar.</p>
+              <a href="#contato" class="btn btn--primary">Quero avaliar meu caso</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Dra. Larissa -->
     <section id="dra" class="section">
       <div class="container dra__grid">
-        <div class="dra__info">
+        <div class="dra__info reveal">
           <p class="section__kicker">Referência em Invisalign©</p>
           <h2>Dra. Larissa Nunes Martini</h2>
-          <p class="dra__subtitle">
-            CRO/SP 119343 • CROSP/CL 027558
-          </p>
-          <p>
-            A Dra. Larissa Martini está entre os 200 doutores que mais trataram casos no Brasil com o sistema Invisalign©.
-            Com ampla experiência clínica e foco em estética e bem-estar, ela conduz cada tratamento de forma personalizada,
-            garantindo um sorriso alinhado e harmônico com o seu rosto.
-          </p>
-          <p>
-            Na One Odontologia, você é acompanhado em todas as etapas, desde o planejamento digital até a finalização
-            do caso, com transparência, cuidado e excelência técnica.
-          </p>
-          <a href="#contato" class="btn btn--primary btn--inline">Vamos conversar?</a>
-        </div>
-        <div class="dra__photo-card">
-          <img src="dr3.jpg" alt="Antes e depois Invisalign" />
-          <div class="dra__tag">
-            <span>Clínica em Moema</span>
+          <p class="dra__subtitle">CRO/SP 119343 • CROSP/CL 027558</p>
+
+          <div class="dra__highlights">
+            <div class="dra__highlight-item">
+              <span class="dra__highlight-icon">🏆</span>
+              <span>Top 200 doutores Invisalign no Brasil</span>
+            </div>
+            <div class="dra__highlight-item">
+              <span class="dra__highlight-icon">✨</span>
+              <span>Foco em estética e bem-estar</span>
+            </div>
+            <div class="dra__highlight-item">
+              <span class="dra__highlight-icon">📱</span>
+              <span>Acompanhamento digital completo</span>
+            </div>
+            <div class="dra__highlight-item">
+              <span class="dra__highlight-icon">💬</span>
+              <span>Atendimento personalizado em Moema</span>
+            </div>
           </div>
+
+          <p class="dra__desc">Cada tratamento é conduzido de forma personalizada, com planejamento digital do início ao fim — transparência e excelência técnica em cada etapa.</p>
         </div>
+
+        <div class="dra__photo-card reveal reveal--delay">
+          <img src="dr3.jpg" alt="Dra. Larissa Nunes Martini" />
+          <div class="dra__tag"><span>Clínica em Moema</span></div>
+        </div>
+
+        <a href="#contato" class="btn btn--primary btn--inline dra__cta reveal">Vamos conversar?</a>
       </div>
     </section>
 
     <!-- Depoimentos -->
     <section id="depoimentos" class="section section--soft">
       <div class="container">
-        <div class="section__header section__header--center">
+        <div class="section__header section__header--center reveal">
+          <p class="section__kicker">Quem já transformou o sorriso</p>
           <h2>O que nossos pacientes dizem</h2>
-          <p>Experiências reais de quem transformou o sorriso com Invisalign© na One Odontologia.</p>
         </div>
 
         <div class="grid grid--3">
-          <article class="testimonial">
-            <p class="testimonial__text">
-              "A Dra Larissa fez meu tratamento de Invisa em apenas 6 meses e foi incrível o resultado.
-              Super recomendo, ela é sempre muito pontual nos atendimentos, e tem todo o cuidado com o paciente!
-              Ficou perfeito!!! Clínica perfeita, tratamento perfeito!"
-            </p>
+          <article class="testimonial reveal">
+            <div class="testimonial__stars">★★★★★</div>
+            <p class="testimonial__text">"Em apenas 6 meses o resultado foi incrível. Pontual, cuidadosa e clínica impecável!"</p>
             <p class="testimonial__name">Samara Santana</p>
           </article>
 
-          <article class="testimonial">
-            <p class="testimonial__text">
-              "O atendimento foi super rápido. O tratamento com Invisalign foi feito em 19 semanas. Ficou perfeito."
-            </p>
+          <article class="testimonial reveal">
+            <div class="testimonial__stars">★★★★★</div>
+            <p class="testimonial__text">"Atendimento super rápido. Tratamento feito em 19 semanas. Ficou perfeito."</p>
             <p class="testimonial__name">Carlos Martini</p>
           </article>
 
-          <article class="testimonial">
-            <p class="testimonial__text">
-              "O ambiente é super agradável e confortável, contando com excelentes profissionais, tanto na equipe
-              odontológica quanto na de atendimento ao público. Destaque para a Dra. Larissa, que está acompanhando
-              meu tratamento Invisalign."
-            </p>
+          <article class="testimonial reveal">
+            <div class="testimonial__stars">★★★★★</div>
+            <p class="testimonial__text">"Ambiente agradável, equipe excelente. A Dra. Larissa é um destaque à parte!"</p>
             <p class="testimonial__name">Minkah Oliveira</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Processo -->
+    <!-- Processo — tabs interativas -->
     <section class="section">
       <div class="container">
-        <div class="section__header section__header--center">
-          <h2>Como funciona o tratamento Invisalign®</h2>
-          <p>Do primeiro contato ao novo sorriso, cada etapa é pensada para você.</p>
+        <div class="section__header section__header--center reveal">
+          <p class="section__kicker">Passo a passo</p>
+          <h2>Como funciona o tratamento</h2>
         </div>
 
-        <div class="steps">
-          <div class="step">
-            <div class="step__number">1</div>
-            <div class="step__content">
-              <h3>Avaliação especializada</h3>
-              <p>
-                A jornada começa com uma avaliação completa com a Dra. Larissa, que analisa seus dentes e necessidades
-                estéticas e funcionais.
-              </p>
-            </div>
+        <div class="steps-tabs reveal">
+          <div class="steps-nav">
+            <button class="step-tab active" data-step="0">1. Avaliação</button>
+            <button class="step-tab" data-step="1">2. Planejamento</button>
+            <button class="step-tab" data-step="2">3. Alinhadores</button>
+            <button class="step-tab" data-step="3">4. Uso diário</button>
+            <button class="step-tab" data-step="4">5. Troca</button>
+            <button class="step-tab" data-step="5">6. Resultado</button>
           </div>
-          <div class="step">
-            <div class="step__number">2</div>
-            <div class="step__content">
-              <h3>Plano digital personalizado</h3>
-              <p>
-                É traçado um plano de tratamento digital preciso, que exibe passo a passo a transformação do seu sorriso.
-                Você visualiza o resultado antes de começar.
-              </p>
+
+          <div class="steps-panels">
+            <div class="step-panel active">
+              <div class="step-panel__number">01</div>
+              <div class="step-panel__content">
+                <h3>Avaliação especializada</h3>
+                <p>A jornada começa com uma avaliação completa com a Dra. Larissa, analisando suas necessidades estéticas e funcionais.</p>
+              </div>
             </div>
-          </div>
-          <div class="step">
-            <div class="step__number">3</div>
-            <div class="step__content">
-              <h3>Confecção dos alinhadores</h3>
-              <p>
-                Seus alinhadores exclusivos são confeccionados sob medida para você, a partir do planejamento aprovado.
-              </p>
+            <div class="step-panel">
+              <div class="step-panel__number">02</div>
+              <div class="step-panel__content">
+                <h3>Plano digital personalizado</h3>
+                <p>Um plano preciso exibe passo a passo a transformação do seu sorriso. Você vê o resultado antes de começar.</p>
+              </div>
             </div>
-          </div>
-          <div class="step">
-            <div class="step__number">4</div>
-            <div class="step__content">
-              <h3>Uso diário</h3>
-              <p>
-                Você usa cada conjunto de alinhadores de 20 a 22 horas por dia, removendo apenas para comer, beber,
-                escovar os dentes e usar fio dental.
-              </p>
+            <div class="step-panel">
+              <div class="step-panel__number">03</div>
+              <div class="step-panel__content">
+                <h3>Confecção dos alinhadores</h3>
+                <p>Seus alinhadores são fabricados sob medida com tecnologia 3D exclusiva, milimetricamente para o seu sorriso.</p>
+              </div>
             </div>
-          </div>
-          <div class="step">
-            <div class="step__number">5</div>
-            <div class="step__content">
-              <h3>Troca de alinhadores</h3>
-              <p>
-                A cada 1 a 2 semanas, conforme orientação da Dra. Larissa, você troca para um novo conjunto de
-                alinhadores, que deslocam seus dentes gradual e suavemente.
-              </p>
+            <div class="step-panel">
+              <div class="step-panel__number">04</div>
+              <div class="step-panel__content">
+                <h3>Uso diário simples</h3>
+                <p>20 a 22 horas por dia. Remove para comer, escovar e usar fio dental — sem complicação na rotina.</p>
+              </div>
             </div>
-          </div>
-          <div class="step">
-            <div class="step__number">6</div>
-            <div class="step__content">
-              <h3>Resultado e manutenção</h3>
-              <p>
-                Em média, o tratamento dura de 9 a 18 meses, dependendo da complexidade do caso. Em poucas semanas você
-                já começa a notar a diferença no sorriso.
-              </p>
+            <div class="step-panel">
+              <div class="step-panel__number">05</div>
+              <div class="step-panel__content">
+                <h3>Troca de alinhadores</h3>
+                <p>A cada 1–2 semanas você troca para um novo conjunto. Os dentes se movem gradual e suavemente.</p>
+              </div>
+            </div>
+            <div class="step-panel">
+              <div class="step-panel__number">06</div>
+              <div class="step-panel__content">
+                <h3>Resultado e manutenção</h3>
+                <p>Em média 9 a 18 meses. Em poucas semanas já dá para notar a diferença no seu sorriso.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -397,114 +335,102 @@
     <!-- FAQ -->
     <section id="faq" class="section section--soft">
       <div class="container">
-        <div class="section__header section__header--center">
+        <div class="section__header section__header--center reveal">
+          <p class="section__kicker">Dúvidas frequentes</p>
           <h2>Perguntas frequentes</h2>
-          <p>Esclareça suas dúvidas sobre o tratamento Invisalign®.</p>
         </div>
 
         <div class="faq">
-          <details class="faq__item" open>
-            <summary>Pra quem é o tratamento Invisalign?</summary>
-            <p>
-              O tratamento Invisalign® pode ser uma ótima solução para adultos, adolescentes e crianças que procuram
-              um método praticamente invisível para remodelar o sorriso. As inovações tecnológicas permitem tratar
-              desde casos simples até os mais complexos, sem interromper sua rotina.
-            </p>
+          <details class="faq__item reveal" open>
+            <summary>Para quem é o tratamento Invisalign?</summary>
+            <p>Para adultos, adolescentes e crianças — casos simples até os mais complexos, sem interromper sua rotina.</p>
           </details>
-
-          <details class="faq__item">
-            <summary>Preciso fazer nos superiores e inferiores ao mesmo tempo?</summary>
-            <p>
-              As opções de tratamento Invisalign® estão disponíveis para ambos os arcos ou apenas para um deles,
-              superior ou inferior. Na avaliação, a Dra. Larissa indicará a melhor estratégia para o seu caso.
-            </p>
+          <details class="faq__item reveal">
+            <summary>Preciso usar nos dois arcos ao mesmo tempo?</summary>
+            <p>Não necessariamente. O tratamento pode ser feito em ambos os arcos ou apenas em um. A Dra. Larissa indica o melhor para o seu caso.</p>
           </details>
-
-          <details class="faq__item">
+          <details class="faq__item reveal">
             <summary>Quanto tempo dura o tratamento?</summary>
-            <p>
-              A duração depende da complexidade do caso e da frequência de uso dos alinhadores. Em média, o tratamento
-              Invisalign® varia de 9 a 18 meses, e é possível observar mudanças em questão de semanas.
-            </p>
+            <p>Em média de 9 a 18 meses, dependendo da complexidade. Mudanças já aparecem em questão de semanas.</p>
           </details>
-
-          <details class="faq__item">
-            <summary>Quantas horas por dia devo usar os alinhadores?</summary>
-            <p>
-              Para obter os melhores resultados, recomenda-se o uso dos alinhadores transparentes Invisalign® de 20 a
-              22 horas por dia, removendo apenas para comer, beber (exceto água), escovar os dentes e usar fio dental.
-            </p>
+          <details class="faq__item reveal">
+            <summary>Quantas horas por dia devo usar?</summary>
+            <p>De 20 a 22 horas por dia. Remove apenas para comer, beber (exceto água), escovar e usar fio dental.</p>
           </details>
-
-          <details class="faq__item">
-            <summary>Quanto custa o tratamento?</summary>
-            <p>
-              Em muitos casos, o valor é semelhante ao dos aparelhos ortodônticos convencionais. O investimento será
-              definido após a avaliação, de acordo com a complexidade do seu caso e o número de alinhadores necessários.
-            </p>
+          <details class="faq__item reveal">
+            <summary>Quanto custa?</summary>
+            <p>O investimento é definido após a avaliação, de acordo com a complexidade do caso. Em muitos casos é similar ao aparelho convencional.</p>
           </details>
         </div>
       </div>
     </section>
 
-    <!-- Localização / Contato -->
+    <!-- Contato -->
     <section id="contato" class="section section--contact">
-      <div class="container contact__grid">
-        <div class="contact__info">
-          <p class="section__kicker">Unidade Moema</p>
-          <h2>Transforme seu sorriso em Moema</h2>
-          <p>
-            Próximo à estação Moema do Metrô, em uma clínica aconchegante e sofisticada, preparada para receber você
-            com conforto e discrição.
-          </p>
+  <div class="container contact__grid">
 
-          <div class="contact__block">
-            <h3>Endereço</h3>
-            <p>
-              Av. Lavandisca 741, cj. 68<br />
-              Moema, São Paulo - SP
-            </p>
-          </div>
+    <div class="contact__info-wrap reveal">
+      <div>
+        <p class="section__kicker">Unidade Moema</p>
+        <h2>Transforme seu sorriso</h2>
+        <p>Próximo à estação Moema do Metrô — clínica aconchegante e sofisticada.</p>
+      </div>
 
-          <div class="contact__block">
-            <h3>Horário de atendimento</h3>
-            <p>Segunda à Sexta • 09h às 18h</p>
-          </div>
-
-          <div class="contact__block">
-            <h3>Contato</h3>
-            <p>
-              E-mail: <a href="mailto:one.odontologia.moema@gmail.com">one.odontologia.moema@gmail.com</a>
-            </p>
-          </div>
+      <!-- Chips rápidos -->
+      <div class="contact__chips">
+        <div class="contact__chip">
+          <span>📍</span><span>Av. Lavandisca 741, cj. 68 — Moema</span>
         </div>
-
-        <div class="contact__form-card">
-          <h3>Solicite um orçamento</h3>
-          <p>Descubra como podemos transformar seu sorriso e sua autoestima, sem compromisso.</p>
-          <form class="contact__form">
-            <div class="form__group">
-              <label for="nome">Nome completo</label>
-              <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
-            </div>
-            <div class="form__group">
-              <label for="telefone">Telefone / WhatsApp</label>
-              <input type="tel" id="telefone" name="telefone" placeholder="(11) _____-____" required />
-            </div>
-            <div class="form__group">
-              <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required />
-            </div>
-            <div class="form__group">
-              <label for="objetivo">O que você deseja melhorar no seu sorriso?</label>
-              <textarea id="objetivo" name="objetivo" rows="4" placeholder="Conte um pouco sobre o que te incomoda e o que você gostaria de transformar."></textarea>
-            </div>
-            <button type="submit" class="btn btn--primary btn--full">Quero transformar meu sorriso</button>
-            <p class="form__note">Responderemos em horário comercial pelo canal de contato informado.</p>
-          </form>
+        <div class="contact__chip">
+          <span>🕐</span><span>Seg–Sex • 09h às 18h</span>
+        </div>
+        <div class="contact__chip">
+          <span>✉️</span>
+          <a href="mailto:one.odontologia.moema@gmail.com" style="color:#8a6b2e;font-weight:600;">
+            one.odontologia.moema@gmail.com
+          </a>
         </div>
       </div>
-    </section>
+
+      <!-- Mapa -->
+      <div class="contact__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0!2d-46.665!3d-23.598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sAv.+Lavandisca%2C+741+-+Moema%2C+S%C3%A3o+Paulo!5e0!3m2!1spt!2sbr!4v1"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localização One Odontologia Moema">
+        </iframe>
+      </div>
+    </div>
+
+    <div class="contact__form-card reveal reveal--delay">
+      <h3>Solicite uma avaliação</h3>
+      <p>Sem compromisso. Respondemos em horário comercial.</p>
+      <form class="contact__form">
+        <div class="form__group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+        </div>
+        <div class="form__group">
+          <label for="telefone">WhatsApp</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(11) _____-____" required />
+        </div>
+        <div class="form__group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required />
+        </div>
+        <div class="form__group">
+          <label for="objetivo">O que você quer melhorar?</label>
+          <textarea id="objetivo" name="objetivo" rows="3" placeholder="Conte brevemente..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Quero transformar meu sorriso</button>
+        <p class="form__note">Respondemos em até 1 dia útil.</p>
+      </form>
+    </div>
+
+  </div>
+</section>
   </main>
 
   <footer class="footer">
@@ -518,6 +444,15 @@
       </div>
     </div>
   </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a href="https://wa.me/5511943859731?text=Olá%2C%20gostaria%20de%20agendar%20uma%20avaliação%20de%20Invisalign" 
+     target="_blank" class="whatsapp-float" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+    
+  </a>
 
   <script src="main.js"></script>
 </body>
